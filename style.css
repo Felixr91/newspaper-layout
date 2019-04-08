@@ -1,0 +1,82 @@
+.gothic{
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: black;
+  font-size:6rem;
+}
+
+.cardo{
+  font-family: 'Cardo', serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.cardo-centered{
+  font-family: 'Cardo', serif;
+  text-align: center;
+  font-size: .8rem;
+}
+
+.news-head{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+}
+
+
+body{
+  background-color: ghostwhite;
+}
+
+hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid #212529;
+  width: 75%;
+}
+
+.nyc-bg{
+  background-image: url("./assets/nyc.jpg");
+  height: 50vh;
+}
+
+.layer {
+  background-color: rgba(17, 165, 4, 0.493);
+  } 
+
+.firstcharacter {
+  color:black;
+  float: left;
+  font-size: 90px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+/*Bootstrap nav style*/
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
